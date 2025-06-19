@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="50" passed="49" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[==server connected successfully==]]>
+    </line>
+    <line>
+      <![CDATA[==database connected successfully]]>
+    </line>
+    <line>
+      <![CDATA[==database closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[==server closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-06-19T07:59:44Z" name="Default suite" finished-at="2025-06-19T08:03:23Z" duration-ms="218168">
+    <groups>
+    </groups>
+    <test started-at="2025-06-19T07:59:44Z" name="Default test" finished-at="2025-06-19T08:03:23Z" duration-ms="218168">
+      <class name="com.Ecommerce.register.RegisterFunctionalityTest">
+        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T07:59:44Z" name="toConnectServer" finished-at="2025-06-19T07:59:44Z" duration-ms="25" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==server connected successfully==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectServer -->
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T07:59:44Z" name="toConnectDatabase" finished-at="2025-06-19T07:59:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==database connected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectDatabase -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T07:59:44Z" name="setUp" finished-at="2025-06-19T07:59:51Z" duration-ms="6949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T07:59:53Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:05Z" duration-ms="12405" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Danielle]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wood]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[maldonadoamanda@mack-peterson.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mhb92@Kco_]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Log out"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e11a930eb9f60bc8298e6f664c1943a, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50404/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e11a930eb9f60bc8298e6f664c1943a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log out"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e11a930eb9f60bc8298e6f664c1943a, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50404/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e11a930eb9f60bc8298e6f664c1943a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.Ecommerce.ObjectRepository.RegisterPage.registerFunctionality(RegisterPage.java:49)
+at com.Ecommerce.register.RegisterFunctionalityTest.registerTest(RegisterFunctionalityTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:05Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:11Z" duration-ms="6012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Angel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clark]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shawnmckay@hotmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[c3Erj4lu&T]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:11Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:15Z" duration-ms="3454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshua]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adams]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[williamrodriguez@hotmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rXf9KSsy(7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:15Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:18Z" duration-ms="3557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeffrey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Zuniga]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ericfarmer@hotmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[^98BR3Io_%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:18Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:22Z" duration-ms="3546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jill]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wong]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tracy15@allen-allen.org]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GiwGrUnv&0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:22Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:25Z" duration-ms="3635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Erica]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lynch]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dennislisa@cannon.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[*IblfonyR3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:25Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:29Z" duration-ms="3759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patricia]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jackson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[allison96@hickman.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7CLFrbwJ#M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:29Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:33Z" duration-ms="4264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Christopher]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Daniel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pcarney@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[##1oYuN(w_]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:33Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:38Z" duration-ms="4612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Robert]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[omartinez@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[x)@1YwHe^f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:38Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:41Z" duration-ms="3454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anthony]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gray]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chapmanjerry@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DJ9PDoZb@Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:41Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:45Z" duration-ms="4090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeffery]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mayo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zimmermanbrian@whitehead.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ujMnV4Tz8_]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:45Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:49Z" duration-ms="3580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[William]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bowman]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[elizabeth38@cummings.org]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OE77WrKf!5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:49Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:53Z" duration-ms="4024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anthony]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hawkins]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kristenaguirre@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ok&47UVw+J]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:53Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:57Z" duration-ms="4109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cohen]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hopkinsmichael@owens-daniel.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[fdg4H2g8V%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:57Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:01Z" duration-ms="3487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Debra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cameron]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zchandler@wright.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[%e)$L9vfh3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:01Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:07Z" duration-ms="6379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parsons]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[robertramirez@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[x7pKfOUc*m]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:07Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:11Z" duration-ms="3551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeffrey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Perez]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jmorton@williams.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[X&9TzVJU%x]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:11Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:15Z" duration-ms="4529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bridget]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Johnson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gabrieltucker@hancock.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+Id2R9cp^$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:15Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:21Z" duration-ms="5578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lisa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Stewart]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gallowayjoseph@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[+7_%8WHu@M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:21Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:28Z" duration-ms="6782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adams]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[uhorton@hotmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[*gT@bbpV@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:28Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:34Z" duration-ms="6508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clark]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jamesrobinson@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[t1VY*8Uobp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:34Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:38Z" duration-ms="3647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Helen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hahn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[brian97@calhoun.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[_&6Yjrn!6M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:38Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:41Z" duration-ms="3685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Matthew]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Walter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[caseyjones@powell.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[73Uuod(y)5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:41Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:45Z" duration-ms="3521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eric]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edwards]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[barnesbrandy@stewart.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[zt6CnOfh(n]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:45Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:48Z" duration-ms="3541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Susan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rios]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[randy47@hickman-walls.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[h_TjpDkq&3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:48Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:52Z" duration-ms="3697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Matthew]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Foster]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jonesjason@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[*F5qy5KrIB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:52Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:55Z" duration-ms="3331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Christopher]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rocha]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nicole35@moore-bass.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qqKQ8Ska+#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:55Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:59Z" duration-ms="3394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Colin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ellis]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sarah12@wilson-rodriguez.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[p_B1iqKvYu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:59Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:02Z" duration-ms="3341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Melanie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Baker]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[juan35@watts.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C%E46IAb0#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:02Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:06Z" duration-ms="3359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cassandra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wright]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rebecca01@hotmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ZMb)29Hovz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:06Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:09Z" duration-ms="3542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lindsay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hoffman]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bradley52@hotmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[&E9dDnHhq7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:09Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:13Z" duration-ms="3908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jessica]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Baker]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[joycearnold@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[$26hiZ_lY9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:13Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:16Z" duration-ms="3342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amanda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Richards]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jonesnicole@gardner.org]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C+2k2CPj0t]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:16Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:20Z" duration-ms="3420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Teresa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hurst]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tanderson@nolan-flynn.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpfy1EFy@*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:20Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:23Z" duration-ms="3297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nicholas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ross]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[evelynestrada@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[&5DTt4vmtA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:23Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:26Z" duration-ms="3300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Andrea]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Robinson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sarayoung@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[*!_LbgPdg4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:26Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:30Z" duration-ms="3394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bright]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[vjohnson@patton-jenkins.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[F&w4*cSwEB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:30Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:33Z" duration-ms="3373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Christine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hicks]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kristinrodriguez@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[!)Z^k33qC0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:33Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:36Z" duration-ms="3252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Michelle]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Davis]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jamessellers@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[08@@kIBz#g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:36Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:40Z" duration-ms="3380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Barbara]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Williams]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jeffreykeller@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P($jq9Do%N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:40Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:43Z" duration-ms="3276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Janet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rodriguez]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[michelle45@hotmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8YS2zRCe)d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:43Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:49Z" duration-ms="5472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brandon]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Burton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sheila14@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[H$6B6KoN&&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:49Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:52Z" duration-ms="3574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeremy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Conner]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rodriguezryan@hotmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[T0ISvJt$(r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:52Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:56Z" duration-ms="4097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Keith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Henderson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gobrien@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7T(8HJTi#d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:56Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:00Z" duration-ms="3723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Christopher]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Brown]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jonathanfletcher@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iuD2_aIw!&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:00Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:04Z" duration-ms="4261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jesse]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ryan59@alvarado-martinez.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[fjU&2+Lj8^]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:04Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:09Z" duration-ms="5233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Craig]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ferrell]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[snguyen@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[J8$8DlHW!A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:09Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:13Z" duration-ms="3943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshua]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rice]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[robertbentley@adkins.biz]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[J@R5T0ExgP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:13Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:18Z" duration-ms="5105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cynthia]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Maddox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[justin69@pena.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Z&H90wMdEw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:18Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:22Z" duration-ms="3505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valencia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[donnacampbell@hotmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[q&8CmYR2jD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:22Z" name="tearDown" finished-at="2025-06-19T08:03:23Z" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:23Z" name="closeDatabase" finished-at="2025-06-19T08:03:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==database closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDatabase -->
+        <test-method is-config="true" signature="closeServer()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:23Z" name="closeServer" finished-at="2025-06-19T08:03:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==server closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeServer -->
+      </class> <!-- com.Ecommerce.register.RegisterFunctionalityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
