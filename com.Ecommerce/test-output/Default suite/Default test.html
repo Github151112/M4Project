@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>49/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>18/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 19 13:29:44 IST 2025</td>
+<td>Started on:</td><td>Thu Jun 19 14:44:51 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>218 seconds (218168 ms)</td>
+<tr><td>Total time:</td><td>40 seconds (40281 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Danielle, Wood, maldonadoamanda@mack-peterson.com, mhb92@Kco_</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log out&quot;}
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: wyattmichelle@yahoo.com, V@JV9H3s5H</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
   (Session info: chrome=137.0.7151.104)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2e11a930eb9f60bc8298e6f664c1943a, findElement {using=link text, value=Log out}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50404/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2e11a930eb9f60bc8298e6f664c1943a
+Command: [ae8b25d0e6e7aba4b331f792f3b80de5, clearElement {id=f.3FB9AB9ACCA6C2AE2B22A698DB2E5F97.d.AFF992F31C627C403B8D12076566255F.e.465}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53468}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53468/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ae8b25d0e6e7aba4b331f792f3b80de5)] -&gt; id: Email]
+Session ID: ae8b25d0e6e7aba4b331f792f3b80de5
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -95,15 +96,14 @@ Session ID: 2e11a930eb9f60bc8298e6f664c1943a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at com.Ecommerce.ObjectRepository.RegisterPage.registerFunctionality(RegisterPage.java:49)
-	at com.Ecommerce.register.RegisterFunctionalityTest.registerTest(RegisterFunctionalityTest.java:28)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.clear(Unknown Source)
+	at com.Ecommerce.ObjectRepository.LoginPage.invalidloginFunctionality(LoginPage.java:38)
+	at com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest(InvalidLoginFunctionalityTest.java:27)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
@@ -127,16 +127,17 @@ Session ID: 2e11a930eb9f60bc8298e6f664c1943a
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace550707", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace550707'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log out&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace118492650", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace118492650'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
   (Session info: chrome=137.0.7151.104)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2e11a930eb9f60bc8298e6f664c1943a, findElement {using=link text, value=Log out}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50404/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2e11a930eb9f60bc8298e6f664c1943a
+Command: [ae8b25d0e6e7aba4b331f792f3b80de5, clearElement {id=f.3FB9AB9ACCA6C2AE2B22A698DB2E5F97.d.AFF992F31C627C403B8D12076566255F.e.465}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53468}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53468/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ae8b25d0e6e7aba4b331f792f3b80de5)] -&gt; id: Email]
+Session ID: ae8b25d0e6e7aba4b331f792f3b80de5
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -147,15 +148,14 @@ Session ID: 2e11a930eb9f60bc8298e6f664c1943a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at com.Ecommerce.ObjectRepository.RegisterPage.registerFunctionality(RegisterPage.java:49)
-	at com.Ecommerce.register.RegisterFunctionalityTest.registerTest(RegisterFunctionalityTest.java:28)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.clear(Unknown Source)
+	at com.Ecommerce.ObjectRepository.LoginPage.invalidloginFunctionality(LoginPage.java:38)
+	at com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest(InvalidLoginFunctionalityTest.java:27)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
@@ -180,8 +180,116 @@ Session ID: 2e11a930eb9f60bc8298e6f664c1943a
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>12</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
+<tr>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: zhurst@yahoo.com, %3H^aDPcoC</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae8b25d0e6e7aba4b331f792f3b80de5, clearElement {id=f.3FB9AB9ACCA6C2AE2B22A698DB2E5F97.d.AEE47F92C023AD1A31B442830EE86DAC.e.838}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53468}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53468/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ae8b25d0e6e7aba4b331f792f3b80de5)] -&gt; id: Email]
+Session ID: ae8b25d0e6e7aba4b331f792f3b80de5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.clear(Unknown Source)
+	at com.Ecommerce.ObjectRepository.LoginPage.invalidloginFunctionality(LoginPage.java:38)
+	at com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest(InvalidLoginFunctionalityTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2093613480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2093613480'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae8b25d0e6e7aba4b331f792f3b80de5, clearElement {id=f.3FB9AB9ACCA6C2AE2B22A698DB2E5F97.d.AEE47F92C023AD1A31B442830EE86DAC.e.838}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53468}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53468/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ae8b25d0e6e7aba4b331f792f3b80de5)] -&gt; id: Email]
+Session ID: ae8b25d0e6e7aba4b331f792f3b80de5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.clear(Unknown Source)
+	at com.Ecommerce.ObjectRepository.LoginPage.invalidloginFunctionality(LoginPage.java:38)
+	at com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest(InvalidLoginFunctionalityTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -191,250 +299,95 @@ Session ID: 2e11a930eb9f60bc8298e6f664c1943a
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Angel, Clark, shawnmckay@hotmail.com, c3Erj4lu&T</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: figueroajohn@doyle.net, 5THgbyR)^4</td>
 <td></td>
-<td>6</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>2</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Joshua, Adams, williamrodriguez@hotmail.com, rXf9KSsy(7</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: fjohnson@hall.com, y2BRaKQ(&3</td>
 <td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Jeffrey, Zuniga, ericfarmer@hotmail.com, ^98BR3Io_%</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: lrobinson@pacheco-smith.com, t@^0b3HcUM</td>
 <td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Jill, Wong, tracy15@allen-allen.org, GiwGrUnv&0</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: joshua35@gmail.com, Ip6aZ%Ln@2</td>
 <td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Erica, Lynch, dennislisa@cannon.net, *IblfonyR3</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: wdavis@baker.com, q^#4*aOh&h</td>
 <td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Patricia, Jackson, allison96@hickman.com, 7CLFrbwJ#M</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: arnoldmaria@hotmail.com, 0!*3M9dbja</td>
 <td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Christopher, Daniel, pcarney@yahoo.com, ##1oYuN(w_</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: janetwilliams@gmail.com, SS%0Ppxx^$</td>
 <td></td>
-<td>4</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Robert, Martin, omartinez@gmail.com, x)@1YwHe^f</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: xreid@gmail.com, s^37TrrF!7</td>
 <td></td>
-<td>4</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Anthony, Gray, chapmanjerry@gmail.com, DJ9PDoZb@Z</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: jason41@hotmail.com, 8q7rJ+8v_c</td>
 <td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Jeffery, Mayo, zimmermanbrian@whitehead.com, ujMnV4Tz8_</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: frankgray@watts.com, 6jI7gbJ!@r</td>
 <td></td>
-<td>4</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, William, Bowman, elizabeth38@cummings.org, OE77WrKf!5</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: trujillorichard@clark.com, )A8Epsn6*)</td>
 <td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Anthony, Hawkins, kristenaguirre@gmail.com, Ok&47UVw+J</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: pfoster@thomas-taylor.net, #uj2bN6adG</td>
 <td></td>
-<td>4</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, James, Cohen, hopkinsmichael@owens-daniel.com, fdg4H2g8V%</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: williamdavis@callahan.com, WDk4yBd2)K</td>
 <td></td>
-<td>4</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Debra, Cameron, zchandler@wright.net, %e)$L9vfh3</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: cruzcaitlin@yahoo.com, b)5PTCkT2@</td>
 <td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Amy, Parsons, robertramirez@gmail.com, x7pKfOUc*m</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: frazierdanny@hotmail.com, 98AajK3N&k</td>
 <td></td>
-<td>6</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Jeffrey, Perez, jmorton@williams.com, X&9TzVJU%x</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: daniel62@yahoo.com, mhb92@Kco_</td>
 <td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Bridget, Johnson, gabrieltucker@hancock.com, +Id2R9cp^$</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: teresa28@harrell.net, c3Erj4lu&T</td>
 <td></td>
-<td>4</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>2</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 <tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Lisa, Stewart, gallowayjoseph@yahoo.com, +7_%8WHu@M</td>
+<td title='com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: com.Ecommerce.login.InvalidLoginFunctionalityTest<br>Parameters: nathanielmartin@sellers.com, rXf9KSsy(7</td>
 <td></td>
-<td>5</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Adam, Adams, uhorton@hotmail.com, *gT@bbpV@1</td>
-<td></td>
-<td>6</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Linda, Clark, jamesrobinson@gmail.com, t1VY*8Uobp</td>
-<td></td>
-<td>6</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Helen, Hahn, brian97@calhoun.net, _&6Yjrn!6M</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Matthew, Walter, caseyjones@powell.com, 73Uuod(y)5</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Eric, Edwards, barnesbrandy@stewart.com, zt6CnOfh(n</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Susan, Rios, randy47@hickman-walls.com, h_TjpDkq&3</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Matthew, Foster, jonesjason@yahoo.com, *F5qy5KrIB</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Christopher, Rocha, nicole35@moore-bass.com, qqKQ8Ska+#</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Colin, Ellis, sarah12@wilson-rodriguez.net, p_B1iqKvYu</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Melanie, Baker, juan35@watts.net, C%E46IAb0#</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Cassandra, Wright, rebecca01@hotmail.com, ZMb)29Hovz</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Lindsay, Hoffman, bradley52@hotmail.com, &E9dDnHhq7</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Jessica, Baker, joycearnold@yahoo.com, $26hiZ_lY9</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Amanda, Richards, jonesnicole@gardner.org, C+2k2CPj0t</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Teresa, Hurst, tanderson@nolan-flynn.com, xpfy1EFy@*</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Nicholas, Ross, evelynestrada@yahoo.com, &5DTt4vmtA</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Andrea, Robinson, sarayoung@gmail.com, *!_LbgPdg4</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Maria, Bright, vjohnson@patton-jenkins.com, F&w4*cSwEB</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Christine, Hicks, kristinrodriguez@gmail.com, !)Z^k33qC0</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Michelle, Davis, jamessellers@yahoo.com, 08@@kIBz#g</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Barbara, Williams, jeffreykeller@yahoo.com, P($jq9Do%N</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Janet, Rodriguez, michelle45@hotmail.com, 8YS2zRCe)d</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Brandon, Burton, sheila14@gmail.com, H$6B6KoN&&</td>
-<td></td>
-<td>5</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Jeremy, Conner, rodriguezryan@hotmail.com, T0ISvJt$(r</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Keith, Henderson, gobrien@gmail.com, 7T(8HJTi#d</td>
-<td></td>
-<td>4</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Christopher, Brown, jonathanfletcher@gmail.com, iuD2_aIw!&</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Jesse, James, ryan59@alvarado-martinez.com, fjU&2+Lj8^</td>
-<td></td>
-<td>4</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Female, Craig, Ferrell, snguyen@yahoo.com, J8$8DlHW!A</td>
-<td></td>
-<td>5</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Joshua, Rice, robertbentley@adkins.biz, J@R5T0ExgP</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Cynthia, Maddox, justin69@pena.com, Z&H90wMdEw</td>
-<td></td>
-<td>5</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
-<tr>
-<td title='com.Ecommerce.register.RegisterFunctionalityTest.registerTest()'><b>registerTest</b><br>Test class: com.Ecommerce.register.RegisterFunctionalityTest<br>Parameters: Male, Michael, Valencia, donnacampbell@hotmail.com, q&8CmYR2jD</td>
-<td></td>
-<td>3</td>
-<td>com.Ecommerce.register.RegisterFunctionalityTest@58ce9668</td></tr>
+<td>1</td>
+<td>com.Ecommerce.login.InvalidLoginFunctionalityTest@58ce9668</td></tr>
 </table><p>
 </body>
 </html>

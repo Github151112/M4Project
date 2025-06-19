@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="50" passed="49" failed="1" skipped="0">
+<testng-results ignored="8" total="79" passed="70" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[==server connected successfully==]]>
@@ -14,79 +14,196 @@
       <![CDATA[==server closed successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-19T07:59:44Z" name="Default suite" finished-at="2025-06-19T08:03:23Z" duration-ms="218168">
+  <suite started-at="2025-06-19T09:22:44Z" name="Suite" finished-at="2025-06-19T09:27:25Z" duration-ms="280934">
     <groups>
     </groups>
-    <test started-at="2025-06-19T07:59:44Z" name="Default test" finished-at="2025-06-19T08:03:23Z" duration-ms="218168">
-      <class name="com.Ecommerce.register.RegisterFunctionalityTest">
-        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T07:59:44Z" name="toConnectServer" finished-at="2025-06-19T07:59:44Z" duration-ms="25" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==server connected successfully==]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toConnectServer -->
-        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T07:59:44Z" name="toConnectDatabase" finished-at="2025-06-19T07:59:44Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==database connected successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toConnectDatabase -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T07:59:44Z" name="setUp" finished-at="2025-06-19T07:59:51Z" duration-ms="6949" status="PASS">
+    <test started-at="2025-06-19T09:22:44Z" name="Test" finished-at="2025-06-19T09:27:25Z" duration-ms="280934">
+      <class name="com.Ecommerce.login.InvalidLoginFunctionalityTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:26:42Z" name="setUp" finished-at="2025-06-19T09:26:48Z" duration-ms="5877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T07:59:53Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:05Z" duration-ms="12405" status="FAIL">
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:26:48Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:26:50Z" duration-ms="1789" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Male]]>
+                <![CDATA[figueroajohn@doyle.net]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Danielle]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Wood]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[maldonadoamanda@mack-peterson.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[mhb92@Kco_]]>
+                <![CDATA[5THgbyR)^4]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:26:50Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:26:51Z" duration-ms="1494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fjohnson@hall.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[y2BRaKQ(&3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:26:51Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:26:53Z" duration-ms="1592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lrobinson@pacheco-smith.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[t@^0b3HcUM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:26:53Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:26:55Z" duration-ms="1831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[joshua35@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ip6aZ%Ln@2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:26:55Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:26:56Z" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wdavis@baker.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[q^#4*aOh&h]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:26:56Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:26:58Z" duration-ms="1439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arnoldmaria@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0!*3M9dbja]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:26:58Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:00Z" duration-ms="2065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janetwilliams@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SS%0Ppxx^$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:00Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:02Z" duration-ms="2098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wyattmichelle@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V@JV9H3s5H]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:02Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:04Z" duration-ms="2081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xreid@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s^37TrrF!7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:04Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:06Z" duration-ms="2064" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jason41@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8q7rJ+8v_c]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Log out"}
+              <![CDATA[stale element reference: stale element not found
   (Session info: chrome=137.0.7151.104)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2e11a930eb9f60bc8298e6f664c1943a, findElement {using=link text, value=Log out}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50404/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2e11a930eb9f60bc8298e6f664c1943a]]>
+Command: [089464212309a694bd76c22d26b0c7a0, clearElement {id=f.908F164FC9A40B7B075E42EE8C8534BC.d.E966AC7C9341C03C0EFFEDF6D6FA0224.e.586}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53997/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (089464212309a694bd76c22d26b0c7a0)] -> id: Email]
+Session ID: 089464212309a694bd76c22d26b0c7a0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log out"}
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
   (Session info: chrome=137.0.7151.104)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2e11a930eb9f60bc8298e6f664c1943a, findElement {using=link text, value=Log out}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50404/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2e11a930eb9f60bc8298e6f664c1943a
+Command: [089464212309a694bd76c22d26b0c7a0, clearElement {id=f.908F164FC9A40B7B075E42EE8C8534BC.d.E966AC7C9341C03C0EFFEDF6D6FA0224.e.586}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53997/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (089464212309a694bd76c22d26b0c7a0)] -> id: Email]
+Session ID: 089464212309a694bd76c22d26b0c7a0
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -97,15 +214,14 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at com.Ecommerce.ObjectRepository.RegisterPage.registerFunctionality(RegisterPage.java:49)
-at com.Ecommerce.register.RegisterFunctionalityTest.registerTest(RegisterFunctionalityTest.java:28)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy18.clear(Unknown Source)
+at com.Ecommerce.ObjectRepository.LoginPage.invalidloginFunctionality(LoginPage.java:38)
+at com.Ecommerce.login.InvalidLoginFunctionalityTest.invalidLoginTest(InvalidLoginFunctionalityTest.java:27)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
@@ -131,11 +247,247 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:08Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:10Z" duration-ms="2164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[frankgray@watts.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6jI7gbJ!@r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:10Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:12Z" duration-ms="1608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trujillorichard@clark.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[)A8Epsn6*)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:12Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:13Z" duration-ms="1496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pfoster@thomas-taylor.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#uj2bN6adG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:13Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:15Z" duration-ms="1583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhurst@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[%3H^aDPcoC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:15Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:17Z" duration-ms="1588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[williamdavis@callahan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WDk4yBd2)K]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:17Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:18Z" duration-ms="1386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cruzcaitlin@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b)5PTCkT2@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:18Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:19Z" duration-ms="1462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[frazierdanny@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98AajK3N&k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:19Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:21Z" duration-ms="1478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daniel62@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mhb92@Kco_]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:21Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:23Z" duration-ms="1781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[teresa28@harrell.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c3Erj4lu&T]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:23Z" name="invalidLoginTest" data-provider="invalidloginData" finished-at="2025-06-19T09:27:24Z" duration-ms="1538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nathanielmartin@sellers.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rXf9KSsy(7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.login.InvalidLoginFunctionalityTest@62010f5c]" started-at="2025-06-19T09:27:24Z" name="tearDown" finished-at="2025-06-19T09:27:25Z" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Ecommerce.login.InvalidLoginFunctionalityTest -->
+      <class name="com.Ecommerce.login.ValidLoginFunctionalityTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ecommerce.login.ValidLoginFunctionalityTest@70f02c32]" started-at="2025-06-19T09:26:28Z" name="setUp" finished-at="2025-06-19T09:26:34Z" duration-ms="5804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.login.ValidLoginFunctionalityTest@70f02c32]" started-at="2025-06-19T09:26:34Z" name="loginTest" data-provider="loginData" finished-at="2025-06-19T09:26:42Z" duration-ms="7276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[williamrodriguez@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rXf9KSsy(7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.login.ValidLoginFunctionalityTest@70f02c32]" started-at="2025-06-19T09:26:42Z" name="tearDown" finished-at="2025-06-19T09:26:42Z" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Ecommerce.login.ValidLoginFunctionalityTest -->
+      <class name="com.Ecommerce.register.RegisterFunctionalityTest">
+        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:22:44Z" name="toConnectServer" finished-at="2025-06-19T09:22:44Z" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==server connected successfully==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectServer -->
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:22:44Z" name="toConnectDatabase" finished-at="2025-06-19T09:22:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==database connected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectDatabase -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:22:44Z" name="setUp" finished-at="2025-06-19T09:22:50Z" duration-ms="6570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:22:51Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:22:56Z" duration-ms="4212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Danielle]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wood]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mhb92@Kco_]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:05Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:11Z" duration-ms="6012" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:22:56Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:22:59Z" duration-ms="3501" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -154,11 +506,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[shawnmckay@hotmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[c3Erj4lu&T]]>
               </value>
             </param>
@@ -166,7 +513,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:11Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:15Z" duration-ms="3454" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:22:59Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:02Z" duration-ms="3222" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -185,11 +532,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[williamrodriguez@hotmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[rXf9KSsy(7]]>
               </value>
             </param>
@@ -197,7 +539,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:15Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:18Z" duration-ms="3557" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:02Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:06Z" duration-ms="3259" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,11 +558,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[ericfarmer@hotmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[^98BR3Io_%]]>
               </value>
             </param>
@@ -228,7 +565,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:18Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:22Z" duration-ms="3546" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:06Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:09Z" duration-ms="3838" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -247,11 +584,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[tracy15@allen-allen.org]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[GiwGrUnv&0]]>
               </value>
             </param>
@@ -259,7 +591,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:22Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:25Z" duration-ms="3635" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:09Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:13Z" duration-ms="3184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -278,11 +610,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[dennislisa@cannon.net]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[*IblfonyR3]]>
               </value>
             </param>
@@ -290,7 +617,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:25Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:29Z" duration-ms="3759" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:13Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:16Z" duration-ms="3399" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,11 +636,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[allison96@hickman.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[7CLFrbwJ#M]]>
               </value>
             </param>
@@ -321,7 +643,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:29Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:33Z" duration-ms="4264" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:16Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:19Z" duration-ms="3336" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -340,11 +662,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[pcarney@yahoo.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[##1oYuN(w_]]>
               </value>
             </param>
@@ -352,7 +669,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:33Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:38Z" duration-ms="4612" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:19Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:23Z" duration-ms="3295" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -371,11 +688,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[omartinez@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[x)@1YwHe^f]]>
               </value>
             </param>
@@ -383,7 +695,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:38Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:41Z" duration-ms="3454" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:23Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:26Z" duration-ms="3671" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -402,11 +714,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[chapmanjerry@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[DJ9PDoZb@Z]]>
               </value>
             </param>
@@ -414,7 +721,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:41Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:45Z" duration-ms="4090" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:26Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:30Z" duration-ms="3556" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -433,11 +740,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[zimmermanbrian@whitehead.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[ujMnV4Tz8_]]>
               </value>
             </param>
@@ -445,7 +747,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:45Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:49Z" duration-ms="3580" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:30Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:34Z" duration-ms="3867" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -464,11 +766,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[elizabeth38@cummings.org]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[OE77WrKf!5]]>
               </value>
             </param>
@@ -476,7 +773,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:49Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:53Z" duration-ms="4024" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:34Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:37Z" duration-ms="3483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -495,11 +792,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[kristenaguirre@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[Ok&47UVw+J]]>
               </value>
             </param>
@@ -507,7 +799,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:53Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:00:57Z" duration-ms="4109" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:37Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:41Z" duration-ms="3287" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -526,11 +818,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[hopkinsmichael@owens-daniel.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[fdg4H2g8V%]]>
               </value>
             </param>
@@ -538,7 +825,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:00:57Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:01Z" duration-ms="3487" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:41Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:45Z" duration-ms="3920" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -557,11 +844,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[zchandler@wright.net]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[%e)$L9vfh3]]>
               </value>
             </param>
@@ -569,7 +851,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:01Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:07Z" duration-ms="6379" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:45Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:48Z" duration-ms="3399" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -588,11 +870,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[robertramirez@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[x7pKfOUc*m]]>
               </value>
             </param>
@@ -600,7 +877,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:07Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:11Z" duration-ms="3551" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:48Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:52Z" duration-ms="4098" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -619,11 +896,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[jmorton@williams.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[X&9TzVJU%x]]>
               </value>
             </param>
@@ -631,7 +903,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:11Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:15Z" duration-ms="4529" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:52Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:55Z" duration-ms="3327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -650,11 +922,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[gabrieltucker@hancock.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[+Id2R9cp^$]]>
               </value>
             </param>
@@ -662,7 +929,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:15Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:21Z" duration-ms="5578" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:55Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:23:59Z" duration-ms="3507" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -681,11 +948,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[gallowayjoseph@yahoo.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[+7_%8WHu@M]]>
               </value>
             </param>
@@ -693,7 +955,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:21Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:28Z" duration-ms="6782" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:23:59Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:03Z" duration-ms="4009" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -712,11 +974,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[uhorton@hotmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[*gT@bbpV@1]]>
               </value>
             </param>
@@ -724,7 +981,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:28Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:34Z" duration-ms="6508" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:03Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:07Z" duration-ms="3663" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -743,11 +1000,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[jamesrobinson@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[t1VY*8Uobp]]>
               </value>
             </param>
@@ -755,7 +1007,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:34Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:38Z" duration-ms="3647" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:07Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:10Z" duration-ms="3553" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -774,11 +1026,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[brian97@calhoun.net]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[_&6Yjrn!6M]]>
               </value>
             </param>
@@ -786,7 +1033,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:38Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:41Z" duration-ms="3685" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:10Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:14Z" duration-ms="4306" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -805,11 +1052,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[caseyjones@powell.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[73Uuod(y)5]]>
               </value>
             </param>
@@ -817,7 +1059,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:41Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:45Z" duration-ms="3521" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:14Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:18Z" duration-ms="3749" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -836,11 +1078,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[barnesbrandy@stewart.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[zt6CnOfh(n]]>
               </value>
             </param>
@@ -848,7 +1085,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:45Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:48Z" duration-ms="3541" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:18Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:22Z" duration-ms="3531" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -867,11 +1104,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[randy47@hickman-walls.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[h_TjpDkq&3]]>
               </value>
             </param>
@@ -879,7 +1111,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:48Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:52Z" duration-ms="3697" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:22Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:25Z" duration-ms="3317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -898,11 +1130,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[jonesjason@yahoo.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[*F5qy5KrIB]]>
               </value>
             </param>
@@ -910,7 +1137,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:52Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:55Z" duration-ms="3331" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:25Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:28Z" duration-ms="3209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -929,11 +1156,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[nicole35@moore-bass.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[qqKQ8Ska+#]]>
               </value>
             </param>
@@ -941,7 +1163,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:55Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:01:59Z" duration-ms="3394" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:28Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:31Z" duration-ms="3283" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -960,11 +1182,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[sarah12@wilson-rodriguez.net]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[p_B1iqKvYu]]>
               </value>
             </param>
@@ -972,7 +1189,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:01:59Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:02Z" duration-ms="3341" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:31Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:36Z" duration-ms="4040" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -991,11 +1208,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[juan35@watts.net]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[C%E46IAb0#]]>
               </value>
             </param>
@@ -1003,7 +1215,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:02Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:06Z" duration-ms="3359" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:36Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:39Z" duration-ms="3506" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1022,11 +1234,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[rebecca01@hotmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[ZMb)29Hovz]]>
               </value>
             </param>
@@ -1034,7 +1241,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:06Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:09Z" duration-ms="3542" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:39Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:44Z" duration-ms="4535" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1053,11 +1260,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[bradley52@hotmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[&E9dDnHhq7]]>
               </value>
             </param>
@@ -1065,7 +1267,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:09Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:13Z" duration-ms="3908" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:44Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:47Z" duration-ms="3319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1084,11 +1286,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[joycearnold@yahoo.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[$26hiZ_lY9]]>
               </value>
             </param>
@@ -1096,7 +1293,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:13Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:16Z" duration-ms="3342" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:47Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:51Z" duration-ms="3743" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1115,11 +1312,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[jonesnicole@gardner.org]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[C+2k2CPj0t]]>
               </value>
             </param>
@@ -1127,7 +1319,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:16Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:20Z" duration-ms="3420" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:51Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:54Z" duration-ms="3257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1146,11 +1338,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[tanderson@nolan-flynn.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[xpfy1EFy@*]]>
               </value>
             </param>
@@ -1158,7 +1345,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:20Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:23Z" duration-ms="3297" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:54Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:24:57Z" duration-ms="3365" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1177,11 +1364,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[evelynestrada@yahoo.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[&5DTt4vmtA]]>
               </value>
             </param>
@@ -1189,7 +1371,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:23Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:26Z" duration-ms="3300" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:24:57Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:01Z" duration-ms="3383" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1208,11 +1390,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[sarayoung@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[*!_LbgPdg4]]>
               </value>
             </param>
@@ -1220,7 +1397,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:26Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:30Z" duration-ms="3394" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:01Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:04Z" duration-ms="3315" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1239,11 +1416,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[vjohnson@patton-jenkins.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[F&w4*cSwEB]]>
               </value>
             </param>
@@ -1251,7 +1423,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:30Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:33Z" duration-ms="3373" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:04Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:08Z" duration-ms="4140" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1270,11 +1442,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[kristinrodriguez@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[!)Z^k33qC0]]>
               </value>
             </param>
@@ -1282,7 +1449,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:33Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:36Z" duration-ms="3252" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:08Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:11Z" duration-ms="3352" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1301,11 +1468,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[jamessellers@yahoo.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[08@@kIBz#g]]>
               </value>
             </param>
@@ -1313,7 +1475,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:36Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:40Z" duration-ms="3380" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:11Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:15Z" duration-ms="3330" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1332,11 +1494,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[jeffreykeller@yahoo.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[P($jq9Do%N]]>
               </value>
             </param>
@@ -1344,7 +1501,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:40Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:43Z" duration-ms="3276" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:15Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:18Z" duration-ms="3469" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1363,11 +1520,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[michelle45@hotmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[8YS2zRCe)d]]>
               </value>
             </param>
@@ -1375,7 +1527,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:43Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:49Z" duration-ms="5472" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:18Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:22Z" duration-ms="3906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1394,11 +1546,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[sheila14@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[H$6B6KoN&&]]>
               </value>
             </param>
@@ -1406,7 +1553,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:49Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:52Z" duration-ms="3574" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:22Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:29Z" duration-ms="6458" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1425,11 +1572,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[rodriguezryan@hotmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[T0ISvJt$(r]]>
               </value>
             </param>
@@ -1437,7 +1579,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:52Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:02:56Z" duration-ms="4097" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:29Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:33Z" duration-ms="4088" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1456,11 +1598,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[gobrien@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[7T(8HJTi#d]]>
               </value>
             </param>
@@ -1468,7 +1605,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:02:56Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:00Z" duration-ms="3723" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:33Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:37Z" duration-ms="3937" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1487,11 +1624,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[jonathanfletcher@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[iuD2_aIw!&]]>
               </value>
             </param>
@@ -1499,7 +1631,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:00Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:04Z" duration-ms="4261" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:37Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:42Z" duration-ms="5478" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1518,11 +1650,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[ryan59@alvarado-martinez.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[fjU&2+Lj8^]]>
               </value>
             </param>
@@ -1530,7 +1657,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:04Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:09Z" duration-ms="5233" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:42Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:46Z" duration-ms="3623" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1549,11 +1676,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[snguyen@yahoo.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[J8$8DlHW!A]]>
               </value>
             </param>
@@ -1561,7 +1683,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:09Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:13Z" duration-ms="3943" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:46Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:25:52Z" duration-ms="6162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1580,11 +1702,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[robertbentley@adkins.biz]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[J@R5T0ExgP]]>
               </value>
             </param>
@@ -1592,7 +1709,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:13Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:18Z" duration-ms="5105" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:25:52Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:26:21Z" duration-ms="29493" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1611,11 +1728,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[justin69@pena.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[Z&H90wMdEw]]>
               </value>
             </param>
@@ -1623,7 +1735,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:18Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T08:03:22Z" duration-ms="3505" status="PASS">
+        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:26:21Z" name="registerTest" data-provider="registerData" finished-at="2025-06-19T09:26:28Z" duration-ms="6466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1642,11 +1754,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[donnacampbell@hotmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[q&8CmYR2jD]]>
               </value>
             </param>
@@ -1654,18 +1761,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:22Z" name="tearDown" finished-at="2025-06-19T08:03:23Z" duration-ms="520" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:26:28Z" name="tearDown" finished-at="2025-06-19T09:26:28Z" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:23Z" name="closeDatabase" finished-at="2025-06-19T08:03:23Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:27:25Z" name="closeDatabase" finished-at="2025-06-19T09:27:25Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==database closed successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeDatabase -->
-        <test-method is-config="true" signature="closeServer()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@58ce9668]" started-at="2025-06-19T08:03:23Z" name="closeServer" finished-at="2025-06-19T08:03:23Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeServer()[pri:0, instance:com.Ecommerce.register.RegisterFunctionalityTest@1fa1cab1]" started-at="2025-06-19T09:27:25Z" name="closeServer" finished-at="2025-06-19T09:27:25Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[==server closed successfully]]>
@@ -1673,6 +1780,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- closeServer -->
       </class> <!-- com.Ecommerce.register.RegisterFunctionalityTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

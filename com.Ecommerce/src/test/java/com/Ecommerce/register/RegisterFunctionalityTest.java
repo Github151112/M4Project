@@ -19,13 +19,13 @@ public class RegisterFunctionalityTest extends BaseTest {
 	}
 
 	@Test(dataProvider = "registerData")
-	public void registerTest(String gender, String firstName, String lastName, String email, String password)
+	public void registerTest(String gender, String firstName, String lastName, String password)
 			throws InterruptedException {
 
 		WelcomePage wp = new WelcomePage(driver);
 		wp.getRegisterLink().click();
 		RegisterPage rp = new RegisterPage(driver);
-		rp.registerFunctionality(driver, gender, firstName, lastName, email, password);
+		rp.registerFunctionality(driver, gender, firstName, lastName, w.generateEmail(), password);
 	}
 
 }

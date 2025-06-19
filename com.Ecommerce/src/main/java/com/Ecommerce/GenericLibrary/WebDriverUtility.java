@@ -1,6 +1,7 @@
 package com.Ecommerce.GenericLibrary;
 
 import java.time.Duration;
+import java.util.Random;
 
 import org.openqa.selenium.WebDriver;
 
@@ -12,6 +13,13 @@ public class WebDriverUtility {
 
 	public void implicitWait(WebDriver driver, int seconds) {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
+	}
+
+	public String generateEmail() {
+		Random r = new Random();
+		int no = r.nextInt(10000);
+		String email = "aman" + no + "@gmail.com";
+		return email;
 	}
 
 }

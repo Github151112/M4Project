@@ -14,8 +14,8 @@ import org.testng.annotations.BeforeTest;
 
 public class BaseTest implements IAutoConstant {
 
-	FileUtility f = new FileUtility();
-	WebDriverUtility w = new WebDriverUtility();
+	public FileUtility f = new FileUtility();
+	public WebDriverUtility w = new WebDriverUtility();
 	public WebDriver driver;
 
 	@BeforeSuite

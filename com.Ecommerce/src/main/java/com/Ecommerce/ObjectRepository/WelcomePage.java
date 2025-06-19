@@ -18,4 +18,11 @@ public class WelcomePage extends BaseClass {
 		return registerLink;
 	}
 
+	@FindBy(linkText = "Log in")
+	private WebElement loginLink;
+
+	public WebElement getLoginLink() {
+		return loginLink;
+	}
+
 }
