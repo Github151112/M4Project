@@ -18,7 +18,7 @@ public class RegisterFunctionalityTest extends BaseTest {
 		return ExcelUtility.readMultipleData(EXCEL_PATH, REG_SHEET);
 	}
 
-	@Test(dataProvider = "registerData")
+	@Test(dataProvider = "registerData",groups = {"ST","RT"})
 	public void registerTest(String gender, String firstName, String lastName, String password)
 			throws InterruptedException {
 

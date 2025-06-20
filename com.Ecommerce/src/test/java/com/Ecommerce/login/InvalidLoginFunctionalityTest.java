@@ -18,7 +18,7 @@ public class InvalidLoginFunctionalityTest extends BaseTest {
 		return ExcelUtility.readMultipleData(EXCEL_PATH, INVALID_SHEET);
 	}
 
-	@Test(dataProvider = "invalidloginData")
+	@Test(dataProvider = "invalidloginData",groups = {"RT","FT"})
 	public void invalidLoginTest(String email, String password) throws InterruptedException {
 
 		WelcomePage wp = new WelcomePage(driver);

@@ -37,6 +37,10 @@ public class RegisterPage extends BaseClass {
 	@FindBy(linkText = "Log out")
 	private WebElement logoutLink;
 
+	public WebElement getLogoutLink() {
+		return logoutLink;
+	}
+
 	public void registerFunctionality(WebDriver driver, String gender, String firstName, String lastName, String email,
 			String password) {
 		getGenderRadioButton(driver, gender).click();

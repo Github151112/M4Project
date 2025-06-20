@@ -2,7 +2,23 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="RT"/>
+      </run>
+    </groups>
     <classes>
+      <class name="com.Ecommerce.register.RegisterFunctionalityTest">
+        <methods>
+          <include name="toConnectServer"/>
+          <include name="registerTest" invocation-numbers="2 22 45"/>
+          <include name="toConnectDatabase"/>
+          <include name="tearDown"/>
+          <include name="closeServer"/>
+          <include name="setUp"/>
+          <include name="closeDatabase"/>
+        </methods>
+      </class> <!-- com.Ecommerce.register.RegisterFunctionalityTest -->
       <class name="com.Ecommerce.login.InvalidLoginFunctionalityTest">
         <methods>
           <include name="toConnectServer"/>
