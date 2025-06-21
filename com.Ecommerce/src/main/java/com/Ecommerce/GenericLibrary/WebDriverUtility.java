@@ -1,6 +1,8 @@
 package com.Ecommerce.GenericLibrary;
 
 import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
 import org.openqa.selenium.WebDriver;
@@ -21,5 +23,11 @@ public class WebDriverUtility {
 		String email = "aman" + no + "@gmail.com";
 		return email;
 	}
+	 public static String getCurrentDateTimeAsNumber() {
+	        LocalDateTime now = LocalDateTime.now();
+	        // Format: yyyyMMddHHmmss
+	        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
+	        return now.format(formatter);
+	    }
 
 }

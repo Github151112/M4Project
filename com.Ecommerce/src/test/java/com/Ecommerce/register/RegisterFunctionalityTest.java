@@ -4,13 +4,16 @@ import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.Ecommerce.GenericLibrary.BaseTest;
+import com.Ecommerce.GenericLibrary.CustomListener;
 import com.Ecommerce.GenericLibrary.ExcelUtility;
 import com.Ecommerce.ObjectRepository.RegisterPage;
 import com.Ecommerce.ObjectRepository.WelcomePage;
 
+@Listeners(CustomListener.class)
 public class RegisterFunctionalityTest extends BaseTest {
 
 	@DataProvider(name = "registerData")

@@ -28,7 +28,7 @@ public class RegisterPage extends BaseClass {
 	@FindBy(id = "Password")
 	private WebElement passwordTextField;
 
-	@FindBy(id = "ConfirmPassword")
+	@FindBy(id = "ConfirmPasswor")
 	private WebElement confirmPasswordTextField;
 
 	@FindBy(id = "register-button")

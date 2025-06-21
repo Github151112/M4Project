@@ -18,7 +18,7 @@ public class BaseTest implements IAutoConstant {
 
 	public FileUtility f = new FileUtility();
 	public WebDriverUtility w = new WebDriverUtility();
-	public WebDriver driver;
+	public static WebDriver driver;
 
 	@BeforeSuite(alwaysRun = true)
 	public void toConnectServer() {
